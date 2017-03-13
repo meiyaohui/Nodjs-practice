@@ -34,6 +34,7 @@ console.log("fire上有 " + count + " 个事件监听器。");
 //移除监听器
 eventEmitter.removeListener('fire', listen1);
 console.log('listen1 已经被移除');
+console.log('listen1');
 
 
 //统计fire事件上有多少个监听器

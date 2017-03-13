@@ -6,6 +6,7 @@ fs.readFile('test.txt', function(error, data) {
     } else {
         console.log(data.toString());
     }
-})
+});
+
 
 console.log('----------------');
